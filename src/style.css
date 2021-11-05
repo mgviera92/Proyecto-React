@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+
+body{
+font-family: 'Georama', sans-serif;
+/* background-color: aliceblue; */
+background-image: url("lol.jpg");
+background-position: top;
+text-align: center;
+
+}
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(176, 217, 233);
+    transition: 0.5s;
+    outline: none;
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+  }
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid rgb(19, 80, 131);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-right: 70px;
+    color: white;
+
+  }
+  th {
+    padding-left: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #55418b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  td {
+    padding-left: 100px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: rgba(173, 129, 202, 0.322);}
